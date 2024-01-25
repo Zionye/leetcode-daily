@@ -1,5 +1,4 @@
 // https://leetcode.cn/problems/search-insert-position/description/
-// https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0035.Search-Insert-Position/
 
 /**
  * 给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。

@@ -1,5 +1,4 @@
 // https://leetcode.cn/problems/binary-search/
-// https://books.halfrost.com/leetcode/ChapterFour/0700~0799/0704.Binary-Search/
 
 /**
  * 

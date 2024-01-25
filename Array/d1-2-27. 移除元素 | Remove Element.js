@@ -1,5 +1,4 @@
 // https://leetcode.cn/problems/remove-element/description/
-// https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0027.Remove-Element/
 
 /**
  * 
