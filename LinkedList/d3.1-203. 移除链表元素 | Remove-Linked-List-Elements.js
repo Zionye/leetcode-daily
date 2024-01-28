@@ -28,10 +28,10 @@ var removeElements = function (head, val) {
   let cur = dummyNode; // 临时指针，用来遍历链表
   while (cur.next) {
     if (cur.next.val === val) {
-      cur.next = cur.next.next;
+      cur.next = cur.next.next; // 当前操作节点的指针 指向 下下个节点
       continue;
     }
-    cur = cur.next;
+    cur = cur.next; // 移动到下一个结点
   }
   return dummyNode.next;
 };
