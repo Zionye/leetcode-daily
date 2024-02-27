@@ -36,10 +36,8 @@ var fourSum = function (nums, target) {
 
         if (fourNum > target) {
           right--;
-          continue;
         } else if (fourNum < target) {
           left++;
-          continue;
         } else {
           res.push([nums[i], nums[j], lNum, rNum]);
           // 对nums[left]和nums[right]去重
