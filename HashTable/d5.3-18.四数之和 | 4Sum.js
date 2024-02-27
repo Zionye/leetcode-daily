@@ -16,14 +16,14 @@ var fourSum = function (nums, target) {
   for (let i = 0; i < len - 3; i++) {
     let fNum = nums[i];
     // 一级剪枝操作(此时将  nums[i] 看成一个整体)
-    // if (fNum > target && (fNum >= 0 || target >= 0)) return res;
+    if (fNum > target && (fNum >= 0 || target >= 0)) return res;
     // 一级去重
     if (i > 0 && nums[i] === nums[i - 1]) continue;
 
     for (let j = i + 1; j < len - 2; j++) {
       let sNum = nums[i] + nums[j];
       // 二级剪枝操作(此时将  nums[i]+nums[j] 看成一个整体)
-      //   if (sNum > target && (sNum >= 0 || target >= 0)) return res;
+      if (sNum > target && nums[i] >= 0) return res;
       // 二级去重
       if (j > i + 1 && nums[j] === nums[j - 1]) continue;
 
